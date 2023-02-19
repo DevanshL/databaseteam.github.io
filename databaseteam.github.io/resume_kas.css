@@ -1,0 +1,249 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #ECF2FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;  /* fr  - fractional unit*/
+    box-shadow: 0 35px 55px rgba(0,0,0,0.4);
+}
+
+.container .left{
+    position: relative;
+    background: #609EA2;
+    padding: 40px;
+    display: inline-block;
+}
+
+/* Left container */
+
+.imgtxt{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    
+}
+
+.imgtxt .img{
+    overflow: hidden;
+    border-radius: 60%;
+    width: 100%;
+}
+
+.container .right{
+    position: relative;
+    background: white;
+    padding: 40px;
+}
+
+img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.imgtxt h2{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+span{
+    line-height: 1.5rem;
+    font-weight: 300;
+}
+
+.imgtxt span{
+    font-size: 1.0rem;
+}
+
+
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+
+.text{
+    color: white;
+}
+
+.contact 
+{
+    padding-top: 40px;
+}
+
+.contact ul{
+    position: relative;    
+}
+
+.contact ul li{
+    position: relative;
+    list-style: none;
+    margin:10px 0;
+    cursor: pointer;
+}
+
+
+.title{
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.icon{
+    font-size: 12px;
+} 
+
+.education{
+    padding-top: 20px;
+}
+
+.education li{
+    position: relative;
+    list-style: none;
+    margin:10px 0;
+}
+
+.education h5{
+    color:#BAD7E9;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.education h4{
+    color:white;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.languages .per{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+
+.languages div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
+.languages ul li{
+    position: relative;
+    list-style: none;
+    margin:10px 0;
+}
+
+
+/* Right container */
+
+p{
+    line-height: 1.3rem;
+    color: #333;
+}
+
+.title1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    color: #003147;
+}
+
+.about .box .duration{
+    min-width: 150px;
+}
+
+.about .box .duration h5{
+    text-transform: uppercase;
+    color: lightseagreen;
+    font-weight: 600;
+}
+
+.about .box .text h4{
+text-transform: uppercase;
+color: #2a7da2;
+font-size: 16px;
+}
+
+td{
+    padding:0  20px;
+}
+
+.star{
+    color: gold;
+    display: inline-block;
+}
+
+.hobbies{
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: #003147;
+}
+
+.hobbies ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 15px;
+}
+
+.hobbies ul li{
+    position: relative;
+    list-style: none;
+    margin:10px 0;
+}
+.amazon
+{
+    padding-top: 10px;
+    padding-left: 45px;
+}
+.ibm
+{
+    padding-top: 10px;
+    padding-left:45px;
+}
+.adobe
+{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
