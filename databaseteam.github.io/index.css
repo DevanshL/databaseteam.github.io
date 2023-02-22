@@ -97,6 +97,7 @@ h1 {
 }
 
 .heading {
+  color: #111;
   font-family: "Fredoka One", sans-serif;
   font-size: 3rem;
   line-height: 1.5;
