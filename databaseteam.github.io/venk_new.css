@@ -111,7 +111,7 @@ section .title::after{
     list-style: none;
     display: inline-block;
     position: relative;
-    left: 600px;
+    left: 300px;
 }
 .navbar1 .menu li a{
     display: block;
